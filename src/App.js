@@ -1,8 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import Welcome from './Welcome';
+import Greeter from './Greeter';
 
 function App() {
+  // let reactjs = "reactjs";
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,11 +21,13 @@ function App() {
         >
           Learn React
         </a>
+      {/* <Welcome/>
       <Welcome/>
       <Welcome/>
       <Welcome/>
-      <Welcome/>
-      <Welcome/>
+      <Welcome/> */}
+      <Greeter name="reactjs" age={31} showNav />
+      <Greeter name="javascript"/>
       </header>
     </div>
   );
