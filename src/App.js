@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Welcome from './Welcome';
 import Greeter from './Greeter';
+import Greeting from './Greeting';
+import EventHandlingExample from './EventHandlingExample';
 
 function App() {
   // let reactjs = "reactjs";
@@ -26,8 +28,10 @@ function App() {
       <Welcome/>
       <Welcome/>
       <Welcome/> */}
-      <Greeter name="reactjs" age={31} showNav />
-      <Greeter name="javascript"/>
+      {/* <Greeter name="reactjs" age={31} showNav />
+      <Greeter name="javascript"/> */}
+      {/* <Greeting isLoggedIn="false" isLogging/> */}
+      <EventHandlingExample />
       </header>
     </div>
   );
