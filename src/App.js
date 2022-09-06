@@ -4,7 +4,11 @@ import Welcome from './Welcome';
 import Greeter from './Greeter';
 import Greeting from './Greeting';
 import EventHandlingExample from './EventHandlingExample';
+import React from 'react';
+import NumbersList from './NumbersList';
+import ReactLists from './ReactLists';
 
+// class App extends React.Component {
 function App() {
   // let reactjs = "reactjs";
 
@@ -31,7 +35,9 @@ function App() {
       {/* <Greeter name="reactjs" age={31} showNav />
       <Greeter name="javascript"/> */}
       {/* <Greeting isLoggedIn="false" isLogging/> */}
-      <EventHandlingExample />
+      {/* <EventHandlingExample /> */}
+      {/* <NumbersList numbers={[1,2,3,4,5]}/> */}
+      <ReactLists />
       </header>
     </div>
   );
