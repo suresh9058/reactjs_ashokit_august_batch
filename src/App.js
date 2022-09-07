@@ -7,10 +7,18 @@ import EventHandlingExample from './EventHandlingExample';
 import React from 'react';
 import NumbersList from './NumbersList';
 import ReactLists from './ReactLists';
+import ClassComponent from './ClassComponent';
+import ReactUseState from './ReactUseState';
 
 // class App extends React.Component {
 function App() {
   // let reactjs = "reactjs";
+
+  const Movies = [
+    {id: 123, name: "movie1"},
+    {id: 456, name: "movie2"},
+    {id: 789, name: "movie3"},
+];
 
   return (
     <div className="App">
@@ -37,7 +45,9 @@ function App() {
       {/* <Greeting isLoggedIn="false" isLogging/> */}
       {/* <EventHandlingExample /> */}
       {/* <NumbersList numbers={[1,2,3,4,5]}/> */}
-      <ReactLists />
+      <ReactLists movies={Movies}/>
+      {/* <ClassComponent /> */}
+      {/* <ReactUseState /> */}
       </header>
     </div>
   );
