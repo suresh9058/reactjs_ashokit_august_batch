@@ -1,15 +1,23 @@
 import {useState} from "react";
 
 function ReactUseState() {
-    // const arrayRef = useState(0); // [variable, setVariable] --> [0, ƒ]
-    // console.log(arrayRef);
-    // const variable = arrayRef[0];//0
-    // const setVariable = arrayRef[1];//f
-    const [variable, setVariable] = useState(0);// [0, ƒ]
-    //  variable is state variable -->0
-    //  setVariable this method can modify the state variable
+    
+    const [count, setCount] = useState(0);//undefined
+
+    const handleButtonEvent = () => {
+        // console.log("button clicked");
+        //count = count+1;//0+1
+        // setCount(count+1);
+        // setCount(count+1);//2, error, 
+        setCount((prevCount)=>prevCount+1);
+        setCount((prevCount)=>prevCount+1);
+    }
+
     return (
-        <></>
+        <>
+            <p>{count}</p>
+            <button onClick={handleButtonEvent}>Counter Increment</button>
+        </>
     )
 }
 

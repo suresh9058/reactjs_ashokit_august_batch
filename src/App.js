@@ -9,6 +9,7 @@ import NumbersList from './NumbersList';
 import ReactLists from './ReactLists';
 import ClassComponent from './ClassComponent';
 import ReactUseState from './ReactUseState';
+import ReactUseStateForm from './ReactUseStateForm';
 
 // class App extends React.Component {
 function App() {
@@ -45,9 +46,10 @@ function App() {
       {/* <Greeting isLoggedIn="false" isLogging/> */}
       {/* <EventHandlingExample /> */}
       {/* <NumbersList numbers={[1,2,3,4,5]}/> */}
-      <ReactLists movies={Movies}/>
+      {/* <ReactLists movies={Movies}/> */}
       {/* <ClassComponent /> */}
       {/* <ReactUseState /> */}
+      <ReactUseStateForm />
       </header>
     </div>
   );
