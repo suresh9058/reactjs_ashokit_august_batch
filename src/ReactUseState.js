@@ -4,7 +4,8 @@ function ReactUseState() {
     
     const [count, setCount] = useState(0);//undefined
 
-    const handleButtonEvent = () => {
+    // passing the parameters from events
+    const handleButtonEvent = (a,b) => {
         // console.log("button clicked");
         //count = count+1;//0+1
         // setCount(count+1);
@@ -16,7 +17,7 @@ function ReactUseState() {
     return (
         <>
             <p>{count}</p>
-            <button onClick={handleButtonEvent}>Counter Increment</button>
+            <button onClick={()=>handleButtonEvent(10,20)}>Counter Increment</button>
         </>
     )
 }

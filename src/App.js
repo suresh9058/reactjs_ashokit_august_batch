@@ -10,6 +10,7 @@ import ReactLists from './ReactLists';
 import ClassComponent from './ClassComponent';
 import ReactUseState from './ReactUseState';
 import ReactUseStateForm from './ReactUseStateForm';
+import UseEffectExample from './UseEffectExample';
 
 // class App extends React.Component {
 function App() {
@@ -49,7 +50,8 @@ function App() {
       {/* <ReactLists movies={Movies}/> */}
       {/* <ClassComponent /> */}
       {/* <ReactUseState /> */}
-      <ReactUseStateForm />
+      {/* <ReactUseStateForm /> */}
+      <UseEffectExample />
       </header>
     </div>
   );
