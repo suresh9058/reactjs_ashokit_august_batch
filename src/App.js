@@ -11,6 +11,7 @@ import ClassComponent from './ClassComponent';
 import ReactUseState from './ReactUseState';
 import ReactUseStateForm from './ReactUseStateForm';
 import UseEffectExample from './UseEffectExample';
+import UseEffectFetch from './UseEffectFetch';
 
 // class App extends React.Component {
 function App() {
@@ -51,7 +52,8 @@ function App() {
       {/* <ClassComponent /> */}
       {/* <ReactUseState /> */}
       {/* <ReactUseStateForm /> */}
-      <UseEffectExample />
+      {/* <UseEffectExample /> */}
+      <UseEffectFetch />
       </header>
     </div>
   );
