@@ -12,6 +12,7 @@ import ReactUseState from './ReactUseState';
 import ReactUseStateForm from './ReactUseStateForm';
 import UseEffectExample from './UseEffectExample';
 import UseEffectFetch from './UseEffectFetch';
+import ErrorHandling from './ErrorHandling';
 
 // class App extends React.Component {
 function App() {
@@ -26,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> react session.
         </p>
@@ -37,7 +38,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       {/* <Welcome/>
       <Welcome/>
       <Welcome/>
@@ -53,7 +54,8 @@ function App() {
       {/* <ReactUseState /> */}
       {/* <ReactUseStateForm /> */}
       {/* <UseEffectExample /> */}
-      <UseEffectFetch />
+      {/* <UseEffectFetch /> */}
+      <ErrorHandling />
       </header>
     </div>
   );
