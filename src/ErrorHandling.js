@@ -15,7 +15,7 @@ function SideBar() {
     return <h1>SideBar Component </h1>
 }
 
-function Footer() {
+export function Footer() {
     return <h1>Footer Component </h1>
 }
 

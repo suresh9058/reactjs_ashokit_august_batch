@@ -12,7 +12,10 @@ import ReactUseState from './ReactUseState';
 import ReactUseStateForm from './ReactUseStateForm';
 import UseEffectExample from './UseEffectExample';
 import UseEffectFetch from './UseEffectFetch';
-import ErrorHandling from './ErrorHandling';
+import ErrorHandling, {Footer} from './ErrorHandling';
+import ReactChildrenProps from './ReactChildrenProps';
+import ReactParentChild from './ReactParentChild';
+// import Footer from './ErrorHandling';
 
 // class App extends React.Component {
 function App() {
@@ -55,7 +58,15 @@ function App() {
       {/* <ReactUseStateForm /> */}
       {/* <UseEffectExample /> */}
       {/* <UseEffectFetch /> */}
-      <ErrorHandling />
+      {/* <ErrorHandling /> */}
+      {/* <ReactChildrenProps>
+        <p>this is the children comp</p>
+        <p>this is the children comp</p>
+        <p>this is the children comp</p>
+        <p>this is the children comp</p>
+        <p>this is the children comp</p>
+      </ReactChildrenProps>  */}
+      <ReactParentChild />
       </header>
     </div>
   );
