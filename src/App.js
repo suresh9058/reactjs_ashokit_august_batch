@@ -15,6 +15,8 @@ import UseEffectFetch from './UseEffectFetch';
 import ErrorHandling, {Footer} from './ErrorHandling';
 import ReactChildrenProps from './ReactChildrenProps';
 import ReactParentChild from './ReactParentChild';
+import ColorCard from './ColorCard';
+import ColorContainer from './ColorContainer';
 // import Footer from './ErrorHandling';
 
 // class App extends React.Component {
@@ -29,7 +31,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header"> */}
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> react session.
@@ -66,8 +68,11 @@ function App() {
         <p>this is the children comp</p>
         <p>this is the children comp</p>
       </ReactChildrenProps>  */}
-      <ReactParentChild />
-      </header>
+      {/* <ReactParentChild /> */}
+      {/* <ColorCard />
+      <ColorCard /> */}
+      <ColorContainer />
+      {/* </header> */}
     </div>
   );
 }
