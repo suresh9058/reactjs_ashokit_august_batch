@@ -18,6 +18,7 @@ import ReactParentChild from './ReactParentChild';
 import ColorCard from './ColorCard';
 import ColorContainer from './ColorContainer';
 import ReactRouterExample from './ReactRouterExample';
+import UseEffectTwo from './UseEffectTwo';
 // import Footer from './ErrorHandling';
 
 // class App extends React.Component {
@@ -74,7 +75,8 @@ function App() {
       <ColorCard /> */}
       {/* <ColorContainer /> */}
       {/* </header> */}
-      <ReactRouterExample />
+      {/* <ReactRouterExample /> */}
+      <UseEffectTwo />
     </div>
   );
 }
