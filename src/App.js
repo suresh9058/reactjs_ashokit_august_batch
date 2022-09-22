@@ -19,6 +19,7 @@ import ColorCard from './ColorCard';
 import ColorContainer from './ColorContainer';
 import ReactRouterExample from './ReactRouterExample';
 import UseEffectTwo from './UseEffectTwo';
+import ReactForm from './ReactForm';
 // import Footer from './ErrorHandling';
 
 // class App extends React.Component {
@@ -76,7 +77,8 @@ function App() {
       {/* <ColorContainer /> */}
       {/* </header> */}
       {/* <ReactRouterExample /> */}
-      <UseEffectTwo />
+      {/* <UseEffectTwo /> */}
+      <ReactForm />
     </div>
   );
 }
