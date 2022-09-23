@@ -20,6 +20,7 @@ import ColorContainer from './ColorContainer';
 import ReactRouterExample from './ReactRouterExample';
 import UseEffectTwo from './UseEffectTwo';
 import ReactForm from './ReactForm';
+import FormikYup from './FormikYup';
 // import Footer from './ErrorHandling';
 
 // class App extends React.Component {
@@ -78,7 +79,8 @@ function App() {
       {/* </header> */}
       {/* <ReactRouterExample /> */}
       {/* <UseEffectTwo /> */}
-      <ReactForm />
+      {/* <ReactForm /> */}
+      <FormikYup />
     </div>
   );
 }
