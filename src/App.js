@@ -21,6 +21,7 @@ import ReactRouterExample from './ReactRouterExample';
 import UseEffectTwo from './UseEffectTwo';
 import ReactForm from './ReactForm';
 import FormikYup from './FormikYup';
+import ReactContextExample from './ReactContextExample';
 // import Footer from './ErrorHandling';
 
 // class App extends React.Component {
@@ -72,7 +73,7 @@ function App() {
         <p>this is the children comp</p>
         <p>this is the children comp</p>
       </ReactChildrenProps>  */}
-      {/* <ReactParentChild /> */}
+      <ReactParentChild />
       {/* <ColorCard />
       <ColorCard /> */}
       {/* <ColorContainer /> */}
@@ -80,7 +81,8 @@ function App() {
       {/* <ReactRouterExample /> */}
       {/* <UseEffectTwo /> */}
       {/* <ReactForm /> */}
-      <FormikYup />
+      {/* <FormikYup /> */}
+      {/* <ReactContextExample /> */}
     </div>
   );
 }
