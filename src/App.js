@@ -22,6 +22,7 @@ import UseEffectTwo from './UseEffectTwo';
 import ReactForm from './ReactForm';
 import FormikYup from './FormikYup';
 import ReactContextExample from './ReactContextExample';
+import PostCall from './PostCall';
 // import Footer from './ErrorHandling';
 
 // class App extends React.Component {
@@ -73,7 +74,7 @@ function App() {
         <p>this is the children comp</p>
         <p>this is the children comp</p>
       </ReactChildrenProps>  */}
-      <ReactParentChild />
+      {/* <ReactParentChild /> */}
       {/* <ColorCard />
       <ColorCard /> */}
       {/* <ColorContainer /> */}
@@ -83,6 +84,7 @@ function App() {
       {/* <ReactForm /> */}
       {/* <FormikYup /> */}
       {/* <ReactContextExample /> */}
+      <PostCall />
     </div>
   );
 }
