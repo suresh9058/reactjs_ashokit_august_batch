@@ -24,6 +24,7 @@ import FormikYup from './FormikYup';
 import ReactContextExample from './ReactContextExample';
 import PostCall from './PostCall';
 // import Footer from './ErrorHandling';
+import Counter from "./components/Counter";
 
 // class App extends React.Component {
 function App() {
@@ -84,7 +85,8 @@ function App() {
       {/* <ReactForm /> */}
       {/* <FormikYup /> */}
       {/* <ReactContextExample /> */}
-      <PostCall />
+      {/* <PostCall /> */}
+      <Counter />
     </div>
   );
 }
