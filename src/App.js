@@ -25,6 +25,7 @@ import ReactContextExample from './ReactContextExample';
 import PostCall from './PostCall';
 // import Footer from './ErrorHandling';
 import Counter from "./components/Counter";
+import LazyLoadingComponent from './LazyLoadingComponent';
 
 // class App extends React.Component {
 function App() {
@@ -86,7 +87,8 @@ function App() {
       {/* <FormikYup /> */}
       {/* <ReactContextExample /> */}
       {/* <PostCall /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <LazyLoadingComponent />
     </div>
   );
 }
