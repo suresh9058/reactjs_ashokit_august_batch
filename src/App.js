@@ -26,6 +26,8 @@ import PostCall from './PostCall';
 // import Footer from './ErrorHandling';
 import Counter from "./components/Counter";
 import LazyLoadingComponent from './LazyLoadingComponent';
+import DataLoadingCustomHook from './DataLoadingCustomHook';
+import StyledComponentExample from './StyledComponentExample';
 
 // class App extends React.Component {
 function App() {
@@ -88,7 +90,11 @@ function App() {
       {/* <ReactContextExample /> */}
       {/* <PostCall /> */}
       {/* <Counter /> */}
-      <LazyLoadingComponent />
+      {/* <LazyLoadingComponent /> */}
+      {/* <DataLoadingCustomHook /> */}
+      <StyledComponentExample>
+        this is a children component
+      </StyledComponentExample>
     </div>
   );
 }
