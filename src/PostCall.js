@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import axios from 'axios';
 
 function PostCall() {
     const data = { 
@@ -6,21 +7,34 @@ function PostCall() {
         "title": "our title",
         "body": "our body"
       };
+    // useEffect(()=>{ 
+    //     fetch('https://jsonplaceholder.typicode.com/posts', {
+    //     method: 'POST', // or 'PUT'
+    //     headers: {
+    //         'Content-Type': 'application/json',
+    //     },
+    //     body: JSON.stringify(data), 
+    //     })
+    //     .then((response) => response.json())
+    //     .then((data) => {
+    //         console.log('Success:', data);
+    //     })
+    //     .catch((error) => {
+    //         console.error('Error:', error);
+    //     });
+    // },[]);
     useEffect(()=>{ 
-        fetch('https://jsonplaceholder.typicode.com/posts', {
-        method: 'POST', // or 'PUT'
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(data), 
+        axios.post('https://jsonplaceholder.typicode.com/posts',{
+            data
         })
-        .then((response) => response.json())
-        .then((data) => {
-            console.log('Success:', data);
+        .then(function (response) {
+          // handle success
+          console.log(response);
         })
-        .catch((error) => {
-            console.error('Error:', error);
-        });
+        .catch(function (error) {
+          // handle error
+          console.log(error);
+        })
     },[]);
 
     return (

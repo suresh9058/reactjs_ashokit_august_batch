@@ -28,6 +28,9 @@ import Counter from "./components/Counter";
 import LazyLoadingComponent from './LazyLoadingComponent';
 import DataLoadingCustomHook from './DataLoadingCustomHook';
 import StyledComponentExample from './StyledComponentExample';
+import LoginButton from './LoginButton';
+import RegisterButton from './RegisterButton';
+import UseRefExample from './UseRefExample';
 
 // class App extends React.Component {
 function App() {
@@ -92,9 +95,12 @@ function App() {
       {/* <Counter /> */}
       {/* <LazyLoadingComponent /> */}
       {/* <DataLoadingCustomHook /> */}
-      <StyledComponentExample>
+      {/* <StyledComponentExample>
         this is a children component
-      </StyledComponentExample>
+      </StyledComponentExample> */}
+      {/* <LoginButton /> <br></br> <br></br>
+      <RegisterButton /> */}
+      <UseRefExample />
     </div>
   );
 }
