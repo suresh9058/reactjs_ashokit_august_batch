@@ -31,6 +31,7 @@ import StyledComponentExample from './StyledComponentExample';
 import LoginButton from './LoginButton';
 import RegisterButton from './RegisterButton';
 import UseRefExample from './UseRefExample';
+import SpringBootExample from './SpringBootExample';
 
 // class App extends React.Component {
 function App() {
@@ -100,7 +101,8 @@ function App() {
       </StyledComponentExample> */}
       {/* <LoginButton /> <br></br> <br></br>
       <RegisterButton /> */}
-      <UseRefExample />
+      {/* <UseRefExample /> */}
+      <SpringBootExample />
     </div>
   );
 }
