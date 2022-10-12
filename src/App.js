@@ -99,10 +99,10 @@ function App() {
       {/* <StyledComponentExample>
         this is a children component
       </StyledComponentExample> */}
-      {/* <LoginButton /> <br></br> <br></br>
-      <RegisterButton /> */}
-      {/* <UseRefExample /> */}
-      <SpringBootExample />
+      <LoginButton /> <br></br> <br></br>
+      <RegisterButton />
+      {/* <UseRefExample />
+      <SpringBootExample /> */}
     </div>
   );
 }
